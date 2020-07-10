@@ -2,6 +2,10 @@ body {
   font-family: "Archivo", sans-serif;
 }
 
+.listWidth {
+  width: 100px;
+}
+
 .primaryColor {
   color: #2131b6;
 }
