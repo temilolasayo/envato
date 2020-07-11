@@ -6,6 +6,11 @@ body {
   width: 100px;
 }
 
+ .fullWidth{
+  width: 100%;
+ }
+
+
 .primaryColor {
   color: #2131b6;
 }
@@ -58,16 +63,6 @@ body {
   transform: translate3d(-50%, -50%, 0);
 }
 
-/* .carousel-item {
-  height: 100vh;
-  min-height: 350px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
-
 /* About Section */
 .aboutFontSize {
   font-size: 40px;
@@ -103,9 +98,24 @@ body {
 .secondaryFontSize {
   font-weight: 600;
   font-size: 59px;
-  line-height: 42px;
-  letter-spacing: 0.03em;
+/*  line-height: 42px;
+*/  letter-spacing: 0.03em;
   font-family: "Archivo", sans-serif;
+}
+
+.primaryFontSize {
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  font-family: "Overpass", sans-serif;
+}
+
+.heroButtonSize {
+  width: 334px;
+height: 100px;
+font-size: 30px;
+  font-family: "Archivo", sans-serif;
+
 }
 
 .secondaryFontSize-mobile {
