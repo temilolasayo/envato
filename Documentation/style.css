@@ -1,4 +1,7 @@
-body {
+body,
+html {
+  font-family: "Archivo", sans-serif;
+  overflow-x: hidden;
   line-height: 3 !important;
 }
 .sidenav {
@@ -11,8 +14,12 @@ body {
   margin-left: 0;
 }
 
-hrWidth {
-  width: 100%";
+.hrWidth {
+  width: 100%;
+}
+
+img {
+  width: 100%;
 }
 
 .goldColor {
