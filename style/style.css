@@ -70,6 +70,8 @@ body {
   width: 367px;
 }
 
+
+
 .aboutFontSize-mobile {
   font-size: 32px;
   overflow-wrap: break-word;
@@ -115,7 +117,15 @@ body {
 height: 100px;
 font-size: 30px;
   font-family: "Archivo", sans-serif;
+}
 
+.getInTouchBtn {
+  width: 334px;
+height: 100px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+font-size: 30px;
+line-height: 35px;
 }
 
 .secondaryFontSize-mobile {
@@ -292,6 +302,41 @@ font-size: 30px;
   #aboutmobile {
     display: block;
   }
+
+  .aboutFontSize {
+font-size: 20px;
+line-height: 22px;
+}
+
+
+.secondaryFontSize {
+font-weight: bold;
+font-size: 32px;
+line-height: 35px;
+  font-family: "Archivo", sans-serif;
+}
+
+.primaryFontSize {
+ font-size: 15px;
+line-height: 20px;
+  font-family: "Overpass", sans-serif;
+}
+
+.heroButtonSize {
+width: 157.55px;
+height: 46.79px;
+font-size: 14px;
+  font-family: "Archivo", sans-serif;
+}
+
+.getInTouchBtn {
+width: 158.54px;
+height: 47.08px;
+  font-family: "Archivo", sans-serif;
+  font-weight: 500;
+font-size: 14px;
+}
+
   #order {
     display: none;
   }
@@ -307,6 +352,15 @@ font-size: 30px;
     width: 100%;
   }
 
+  .orderRideBTn {
+    width: 250px;
+height: 43px;
+  }
+
+  .carousel-indicators li {
+    background: #2131b6;
+  }
+
   h1 {
     font-size: 32px;
   }
@@ -317,7 +371,15 @@ font-size: 30px;
 
   .mobilegallerysize img {
     width: 100%;
-    height: auto;
+height: 250px;
+  }
+
+  .headerFont {
+    font-size: 25px !important;
+  }
+
+  #ourdrivers img {
+    width: 100%;
   }
 
   #testimonial {
@@ -341,9 +403,9 @@ font-size: 30px;
   }
 
   .quoteMobileFont {
-    line-height: 1.5 !important;
+    line-height: 1.0 !important;
     color: #000000;
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   #googlemapframe {
@@ -351,6 +413,10 @@ font-size: 30px;
   }
   #googlemapmobile {
     display: block;
+  }
+
+  .contactImage {
+    max-width: 100%;
   }
 
   #desktopFonts {

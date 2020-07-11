@@ -367,10 +367,10 @@
     </section>
 
         <!-- Order Ride Mobile  section -->
-        <section class="greyBackground p-5" id="ordermobile">
+        <section class="greyBackground" id="ordermobile">
           <div class="container">
             <div class="text-center pb-5 py-5">
-              <h1 id="mobileSize">Our Ride Pricing</h1>
+              <h1 class="headerFont">Our Ride Pricing</h1>
               <hr class="blueLine" />
         
               <p class="pricingFontSize">
@@ -379,23 +379,11 @@
                 work with from start to finish.
               </p>
             </div>
-            <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-3" data-ride="carousel">
-        
-        
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-multi" data-slide-to="1"></li>
-                <li data-target="#carousel-example-multi" data-slide-to="2"></li>
-                <li data-target="#carousel-example-multi" data-slide-to="3"></li>
-                <li data-target="#carousel-example-multi" data-slide-to="4"></li>
-              </ol>
-              <!--/.Indicators-->
-        
+            <div id="carousel-example-multi" class="carousel slide carousel-multi-item v-3 " data-ride="carousel">        
               <div class="carousel-inner v-3" role="listbox">
                 <div class="carousel-item active">
-                  <div class="col-12 col-md-4">
-                    <div class="card mb-2" id="imageStyle">
+                  <div class="col-12 col-md-12 mb-3">
+                    <div class="card mb-5" id="imageStyle">
                       <div class="card-body">
                         <h6 class="font-weight-bold">Regular Car</h6>
                         <img src="images/blackmercedez.png" alt="Black Mercedez" class="imgTransform" />
@@ -407,15 +395,17 @@
                         <p class="primaryPriceFont">Cost Per Day:</p>
                         <p class="font-weight-bold primaryColor">$5,000</p>
                       </div>
-                      <button class="btn btn-primary btn-lg primaryBgColor">
+                      <div class="text-center mb-3">
+                      <button class="btn btn-primary btn-lg primaryBgColor orderRideBTn">
                         Order Ride
                       </button>
+                  </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-12 col-md-4">
-                    <div class="card mb-2" id="imageStyle">
+                  <div class="col-12 col-md-12 mb-3">
+                    <div class="card mb-5" id="imageStyle">
                       <div class="card-body">
                         <h6 class="font-weight-bold">Jeep</h6>
                         <img src="images/blackmercedezbenz.png" alt="Black Mercedez Benz" class="imgTransform" />
@@ -427,16 +417,15 @@
                         <p class="primaryPriceFont">Cost Per Day:</p>
                         <p class="font-weight-bold primaryColor">$9,000</p>
                       </div>
-                      <button class="btn btn-primary btn-lg primaryBgColor">
+                      <button class="btn btn-primary btn-lg primaryBgColor orderRideBTn">
                         Order Ride
                       </button>
                     </div>
                   </div>
                 </div>
-              </div>
               <div class="carousel-item">
-                <div class="col-12 col-md-4">
-                  <div class="card mb-2" id="imageStyle">
+                <div class="col-12 col-md-12 mb-3">
+                  <div class="card mb-5" id="imageStyle">
                     <div class="card-body">
         
                       <h6 class="font-weight-bold">Mini Van</h6>
@@ -449,16 +438,15 @@
                       <p class="primaryPriceFont">Cost Per Day:</p>
                       <p class="font-weight-bold primaryColor">$9,500</p>
                     </div>
-                    <button class="btn btn-primary btn-lg primaryBgColor">
+                    <button class="btn btn-primary btn-lg primaryBgColor orderRideBTn">
                       Order Ride
                     </button>
                   </div>
                 </div>
               </div>
-            </div>
             <div class="carousel-item">
-              <div class="col-12 col-md-4">
-                <div class="card mb-2" id="imageStyle">
+              <div class="col-12 col-md-12 mb-3">
+                <div class="card mb-5" id="imageStyle">
                   <div class="card-body">
                     <h6 class="font-weight-bold">Limosine</h6>
                     <img src="images/minivan.png" class="imgTransform" alt="Limosine" />
@@ -470,13 +458,27 @@
                     <p class="primaryPriceFont">Cost Per Day:</p>
                     <p class="font-weight-bold primaryColor">$20,000</p>
                   </div>
-                  <button class="btn btn-primary btn-lg primaryBgColor">
+                  <button class="btn btn-primary btn-lg primaryBgColor orderRideBTn">
                     Order Ride
                   </button>
                 </div>
               </div>
             </div>
           </div>
+
+        
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-multi" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="1"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="2"></li>
+                <li data-target="#carousel-example-multi" data-slide-to="3"></li>
+<!--                 <li data-target="#carousel-example-multi" data-slide-to="4"></li>
+ -->              </ol>
+              <!--/.Indicators-->
+
+      </div>
+  </div>
         </section>
 
             <!-- Get in touch Desktop section -->
@@ -491,7 +493,7 @@
                   </h1>
                 </div>
                 <div class="top-right">
-                  <button class="btn btn-primary btn-lg primaryBgColor pl-5 pr-5 pt-3 pb-3">
+                  <button class="btn btn-primary btn-lg primaryBgColor pl-5 pr-5 pt-3 pb-3 getInTouchBtn">
                     Get in Touch Now
                   </button>
                 </div>
@@ -506,16 +508,13 @@
               <div class="col-sm-12 cardOverlay">
                 <img src="images/Spacer.png" alt="Limousine Service" class="img-fluid" />
               </div>
-              <div class="centered">
-                <h1 class="font-weight-bold">
+              <div class="top-right">
+              	<h1 class="font-weight-bold">
                   Make your trip an unforgettable moment together.
                 </h1>
-                <button class="btn btn-primary btn-lg primaryBgColor pl-2 pr-2 pt-2 pb-2">
+                        <button class="btn btn-primary primaryBgColor pl-2 pr-2 pt-2 pb-2 getInTouchBtn">
                   Get in Touch Now
                 </button>
-              </div>
-              <div class="top-right">
-        
               </div>
             </div>
           </div>
@@ -581,22 +580,21 @@
         </div>
         <div class="card-group mobilegallerysize">
           <div class="card">
-            <img src="images/galleryOne.png" alt="Picture one" />
+            <img src="images/galleryOne.png" alt="Picture one" class="img-fluid" />
           </div>
           <div class="card">
-            <img src="images/galleryTwo.png" alt="Picture Two" />
-          </div>
+            <img src="images/galleryTwo.png" alt="Picture Two" class="img-fluid" 
           <div class="card">
-            <img src="images/galleryThree.png" alt="Picture Three" />
+            <img src="images/galleryThree.png" alt="Picture Three" class="img-fluid" />
           </div>
         </div>
         <div class="card-group mobilegallerysize">
           <div class="card">
-            <img src="images/galleryFour.png" alt="Picture one" />
+            <img src="images/galleryFour.png" alt="Picture one" class="img-fluid" />
           </div>
           <div class="card cardOverlay" id="imageStyle">
             <div class="outerdiv">
-              <img src="images/weddingone.png" alt="Picture Two" />
+              <img src="images/weddingone.png" alt="Picture Two" class="img-fluid" />
               <div class="centerText">
                 <p class="font-weight-bold aboutFontSize">Wedding Ride</p>
                 <p class="aboutprimaryfont">Loren Ipsm</p>
@@ -943,7 +941,7 @@
                 </div>
               </div>
             </form>
-            <div class="row pt-5 secondaryFont text-center" id="desktopFonts">
+            <div class="row pt-5 secondaryFont" id="desktopFonts">
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 alignRow">
                 <img src="images/iconOne.png" alt="First Icon" class="img-fluid" />
                 <p class="font-weight-bold">Phone</p>
@@ -959,32 +957,29 @@
               <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 alignRow">
                 <img src="images/iconThree.png" alt="Third Icon"  />
                 <p class="font-weight-bold">Address</p>
-                <p class="primaryPriceFont contactFontSize">252 W 43rd St New</p>                             
+                <p class="primaryPriceFon text-centert contactFontSize">252 W 43rd St New</p>                             
               </div>
 
             </div>
-            <div class="pt-3" id="mobileFonts">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                <img src="images/iconOne.png" alt="Volkswagen" width="30%" />
-      
-                <img src="images/iconTwo.png" alt="Chevrolet" width="30%" />
-                <img src="images/iconThree.png" alt="Ford" width="30%" />
+            <div class="row pt-3  text-center" id="mobileFonts">
+              <div class="col-xs-4 alignRow">
+                <img src="images/iconOne.png" alt="First Icon" class="img-fluid contactImage" />
+                <p class="font-weight-bold contactIconSecFont">Phone</p>
+                <p class="primaryPriceFont contactIconPrimaryFont">+44 800099090</p>
               </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pl-4">
-                <a class="font-weight-bold contactIconSecFont pr-5">Phone</a>
-                <a class="font-weight-bold contactIconSecFont pr-5">E-mail</a>
-                <a class="font-weight-bold contactIconSecFont">Address</a>
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pl-3">
-                <a class="primaryPriceFont contactIconPrimaryFont" width="30%">+44 800099090</a>
-                <a class="primaryPriceFont contactIconPrimaryFont" width="30%">
+              <div class="col-xs-4 alignRow" >
+                <img src="images/iconTwo.png" class="img-fluid contactImage" alt="Second Icon" />
+                <p class="font-weight-bold contactIconSecFont">E-mail</p>
+                <p class="primaryPriceFont contactIconPrimaryFont">
                   info@syntaxchaff.com
-                </a>
-                <a class="primaryPriceFont contactIconPrimaryFont" width="30%">
-                  252 W 43rd St
-                </a>
+                </p>
               </div>
-            </div>
+              <div class="col-xs-4 alignRow">
+                <img src="images/iconThree.png" alt="Third Icon"  class="img-fluid contactImage" />
+                <p class="font-weight-bold contactIconSecFont">Address</p>
+                <p class="primaryPriceFont contactIconPrimaryFont">252 W 43rd St New</p>                             
+              </div>
+          </div>
           </div>
           <div class="col-sm-6 img-fluid iframeStyle" id="googlemapframe">
             <iframe src="https://maps.google.com/maps?q=NewYork&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
