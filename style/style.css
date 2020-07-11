@@ -1,14 +1,16 @@
-body {
+body,
+html {
   font-family: "Archivo", sans-serif;
+  overflow-x: hidden;
 }
 
 .listWidth {
   width: 100px;
 }
 
- .fullWidth{
+.fullWidth {
   width: 100%;
- }
+}
 
 .carousel-indicators li {
   width: 10px;
@@ -75,8 +77,6 @@ body {
   width: 367px;
 }
 
-
-
 .aboutFontSize-mobile {
   font-size: 32px;
   overflow-wrap: break-word;
@@ -105,8 +105,9 @@ body {
 .secondaryFontSize {
   font-weight: 600;
   font-size: 59px;
-/*  line-height: 42px;
-*/  letter-spacing: 0.03em;
+  /*  line-height: 42px;
+*/
+  letter-spacing: 0.03em;
   font-family: "Archivo", sans-serif;
 }
 
@@ -119,18 +120,18 @@ body {
 
 .heroButtonSize {
   width: 334px;
-height: 100px;
-font-size: 30px;
+  height: 100px;
+  font-size: 30px;
   font-family: "Archivo", sans-serif;
 }
 
 .getInTouchBtn {
   width: 334px;
-height: 100px;
+  height: 100px;
   font-family: "Archivo", sans-serif;
   font-weight: 500;
-font-size: 30px;
-line-height: 35px;
+  font-size: 30px;
+  line-height: 35px;
 }
 
 .secondaryFontSize-mobile {
@@ -309,38 +310,37 @@ line-height: 35px;
   }
 
   .aboutFontSize {
-font-size: 20px;
-line-height: 22px;
-}
+    font-size: 20px;
+    line-height: 22px;
+  }
 
+  .secondaryFontSize {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 35px;
+    font-family: "Archivo", sans-serif;
+  }
 
-.secondaryFontSize {
-font-weight: bold;
-font-size: 32px;
-line-height: 35px;
-  font-family: "Archivo", sans-serif;
-}
+  .primaryFontSize {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: "Overpass", sans-serif;
+  }
 
-.primaryFontSize {
- font-size: 15px;
-line-height: 20px;
-  font-family: "Overpass", sans-serif;
-}
+  .heroButtonSize {
+    width: 157.55px;
+    height: 46.79px;
+    font-size: 14px;
+    font-family: "Archivo", sans-serif;
+  }
 
-.heroButtonSize {
-width: 157.55px;
-height: 46.79px;
-font-size: 14px;
-  font-family: "Archivo", sans-serif;
-}
-
-.getInTouchBtn {
-width: 158.54px;
-height: 47.08px;
-  font-family: "Archivo", sans-serif;
-  font-weight: 500;
-font-size: 14px;
-}
+  .getInTouchBtn {
+    width: 158.54px;
+    height: 47.08px;
+    font-family: "Archivo", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
 
   #order {
     display: none;
@@ -359,7 +359,7 @@ font-size: 14px;
 
   .orderRideBTn {
     width: 250px;
-height: 43px;
+    height: 43px;
   }
 
   .carousel-indicators li {
@@ -376,7 +376,7 @@ height: 43px;
 
   .mobilegallerysize img {
     width: 100%;
-height: 250px;
+    height: 250px;
   }
 
   .headerFont {
@@ -408,7 +408,7 @@ height: 250px;
   }
 
   .quoteMobileFont {
-    line-height: 1.0 !important;
+    line-height: 1 !important;
     color: #000000;
     font-size: 10px !important;
   }
